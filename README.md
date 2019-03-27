@@ -1,6 +1,15 @@
 This repo contains Implementration of the paper 
 ### "Zero shot Multilingual sentiment analysis using Hierarchical Attentive BERT"
 
+
+***** Follow the instruction of the below repository to install pretrained BERT module
+https://github.com/huggingface/pytorch-pretrained-BERT
+
+### clone thye following repository
+https://github.com/openai/generating-reviews-discovering-sentiment
+
+and replace the encoder.py , sst_binary_demo.py and utils.py code with ours..
+
 ### code for training version 1 ( without M-LSTM semantic feature) run
    python main.py
 
